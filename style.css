@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: 20px;
+    font-size: 80px;
+    font-family: 'Indie Flower';
+}
+
+
+#letters{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    font-size: 30px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(175, 174, 174),
+     -5px -5px 5px rgb(238, 238, 238);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: white;
+}
+
+
+#letters div{
+    padding: 15px;
+    border: 2px dashed rgb(189, 187, 187);
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(195, 226, 226);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(175, 174, 174),
+     -5px -5px 5px rgb(238, 238, 238);
+    color: rgb(48, 61, 50);
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+#letters div:hover{
+    background-color: rgb(91, 148, 148);
+    color: white;
+    font-family: 'Indie Flower';
+}
+
+#letters div.used{
+    background-color: lightgrey;
+    opacity: 0.5;
+}
+
+
+#image {
+    text-align: center;
+    padding: 20px;
+}
+
+#clue p{
+   margin: 0;
+   font-size: 3rem;
+   letter-spacing: 0.5em;
+   text-align: center;
+   font-family: 'Indie Flower';
+}
+
+#youWon p{
+    text-align: center;
+    font-size: 1rem;
+    display: none;
+    font-family: 'Indie Flower';
+}
+
+#gameOver p{
+    text-align: center;
+    font-size: 1rem;
+    display: none;
+    font-family: 'Indie Flower';
+}
